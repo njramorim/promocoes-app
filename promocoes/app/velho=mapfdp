@@ -1,0 +1,71 @@
+
+
+/*
+
+constructor(props) {
+  super(props)
+
+  this.state = {
+    region: {
+      latitude: -23.604224,
+      longitude: -46.637758,
+      latitudeDelta: 0.0022,
+      longitudeDelta: 0.0022,
+    },
+  }
+}
+
+onRegionChange(region) {
+  this.setState({ region });
+}
+
+render() {
+  return (
+    <View style={{flex: 1}}>
+      <MapView style={{flex: 1, marginTop: 50}}
+        showsUserLocation={true}
+        loadingEnabled={true}
+        showsTraffic={false}
+        showsIndoors={false}
+        showsBuildings={false}
+        region={this.state.region}
+      >
+      </MapView>
+    </View>
+  )
+}
+
+
+
+constructor(props){
+  super(props)
+  this.state = {
+    mapLocation: {
+      latitude: 0,
+      longitude: 0
+     },
+     center: {
+       latitude: 40.72345355209305,
+       longitude: -73.99343490600586
+     },
+     annotations: [{
+       latitude: 40.72052634,
+       longitude:  -73.97686958312988,
+       title: 'This is marker 1',
+       subtitle: 'Hi mom!'
+     },{
+       latitude: 40.714541341726175,
+       longitude:  -74.00579452514648,
+       title: 'This is marker 2',
+       subtitle: 'Neat, this is a subtitle'
+     }],
+     zoom: 12,
+     direction: 0
+   }
+}
+
+render(){
+  return(
+    <MapView style={{flex:1}} />
+  )
+}
