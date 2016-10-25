@@ -16,5 +16,5 @@ class LoadApp extends Component{
 }
 
 
-//registra e renderiza o componente InitApp
-AppRegistry.registerComponent('promocoes', () => LoadApp);
+//registra e renderiza o componente
+AppRegistry.registerComponent('promocoes-app', () => LoadApp);

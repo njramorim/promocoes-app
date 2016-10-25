@@ -50,4 +50,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('promocoes', () => promocoes);
+AppRegistry.registerComponent('promocoes-app', () => promocoes);
